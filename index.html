@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio - Renu Kumari</title>
+    <link rel="stylesheet" href="portfolio.css">
+</head>
+<body>
+    <!-- Header Section -->
+    <header>
+        <div class="header-container">
+            <img src="portfolioImg.jpg" alt="Renu Kumari" class="profile-image">
+            <h1>Renu Kumari</h1>
+            <p>Aspiring MCA Graduate | Full-Stack Developer | Problem Solver</p>
+        </div>
+        <nav>
+            <div class="burger-menu" onclick="toggleMenu()">
+                <div></div>
+                <div></div>
+                <div></div>
+            </div>
+            <ul id="nav-links">
+                <li><a href="#about">About Me</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#resume">Resume</a></li>
+                <li><a href="#achievements">Achievements</a></li>
+                <li><a href="#contact">Contact Me</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- About Me Section -->
+    <section id="about">
+        <h2>About Me</h2>
+        <p>
+            Hi, I am Renu Kumari, a passionate MCA student specializing in software and web development.
+            Currently in my 2nd year, I am eager to contribute to innovative projects and solve real-world problems.
+            As a fresher, I am excited to embark on a journey of learning and growth.
+        </p>
+        <ul>
+            <li>1st position in MCA 1st semester</li>
+            <li>3rd position in BCA</li>
+            <li>Gold Medalist in school</li>
+        </ul>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills">
+        <h2>Skills</h2>
+        <ul>
+            <li><strong>Programming Languages:</strong> C, C++, Java, Python</li>
+            <li><strong>Web Development:</strong> MERN Stack (MongoDB, Express.js, React, Node.js)</li>
+            <li><strong>Database Management:</strong> MySQL, DBMS</li>
+            <li><strong>Soft Skills:</strong> Leadership, Communication, Problem Solving</li>
+        </ul>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects">
+        <h2 id="prjts">Projects</h2>
+        <div class="project">
+            <h3>SyncNest - E-Commerce Website</h3>
+            <p>A responsive e-commerce platform for home automation products.</p>
+            <p><strong>Technology:</strong> MERN Stack</p>
+            <a href="#">View Project</a>
+        </div>
+
+        <div class="project">
+            <h3>Weather Tracker</h3>
+            <p>An application to track and display real-time weather updates.</p>
+            <p><strong>Technology:</strong> JavaScript, API Integration</p>
+            <a href="#">View Project</a>
+        </div>
+
+        <div class="project">
+            <h3>Library Management System</h3>
+            <p>A desktop application for managing book inventory, user records, and transactions.</p>
+            <p><strong>Technology:</strong> HTML, CSS, JavaScript</p>
+            <a href="#">View Project</a>
+        </div>
+    </section>
+
+    <!-- Resume Section -->
+    <section id="resume">
+        <h2>Resume</h2>
+        <p>Click the button below to download my resume:</p>
+        <a href="C:\Users\renu\Downloads\Resume (1).pdf" download="Renu_Kumari_Resume" class="btn">
+          View Resume
+        </a>
+        </section>
+
+    <!-- Achievements Section -->
+    <section id="achievements">
+        <h2>Achievements</h2>
+        <ul>
+            <li>1st Position in MCA 1st Semester</li>
+            <li>3rd Position in BCA</li>
+            <li>Gold Medalist in School</li>
+        </ul>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact">
+        <h2>Contact Me</h2>
+        <p>Email: <a href="mailto:rkranjan6206@gmail.com">rkranjan6206@gmail.com</a></p>
+        <p>Phone: +916206805872</p>
+        <p>LinkedIn: <a href="https://www.linkedin.com/in/renu-yadav-5b0403316" target="_blank">Renu Yadav</a></p>
+        <p>GitHub: <a href="https://github.com/coderMaster-ai/coderMaster-ai" target="_blank">codeMaster-ai</a></p>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <p>Crafted with Renu Kumari</p>
+        <nav class="foot">
+            <a href="#about">About Me</a> |
+            <a href="#skills">Skills</a> |
+            <a href="#projects">Projects</a> |
+            <a href="#contact">Contact Me</a>
+        </nav>
+    </footer>
+    <script>
+        function toggleMenu() {
+            const navLinks = document.getElementById("nav-links");
+            navLinks.classList.toggle("active");
+        }
+    </script>
+</body>
+</html>
